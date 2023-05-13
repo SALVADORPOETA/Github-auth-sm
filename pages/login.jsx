@@ -19,8 +19,14 @@ export default function Component() {
     <>
       <div className='container'>
           <p>You are not signed in.</p>
-          <button className="login" onClick={()=> signIn()} >Sign in</button>
-          <a href="/"><button className="back">Back Home</button></a>    
+          <div className="buttons" >
+            <div className="button1">
+              <button className="login" onClick={()=> signIn()} >Sign in</button>
+            </div>
+            <div className="button2">
+              <a href="/"><button className="back">Back Home</button></a>    
+            </div>
+          </div>
       </div>
     </>
   )
