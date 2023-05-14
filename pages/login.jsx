@@ -24,7 +24,7 @@ export default function Component() {
               <button className="login" onClick={()=> signIn()} >Sign in</button>
             </div>
             <div className="button2">
-              <a href="/"><button className="back">Back Home</button></a>    
+              <a href="/"><button className="back">Back</button></a>    
             </div>
           </div>
       </div>

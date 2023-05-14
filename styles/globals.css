@@ -38,6 +38,7 @@
 
 .buttons {
   display: flex;
+  text-align: center;
   align-content: space-between;
 }
 
