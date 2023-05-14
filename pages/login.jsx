@@ -27,6 +27,9 @@ export default function Component() {
               <a href="/"><button className="back">Back</button></a>    
             </div>
           </div>
+          <div>
+            <img src="https://pngimg.com/d/github_PNG15.png" alt="/" width={300} />
+          </div>
       </div>
     </>
   )
